@@ -139,11 +139,14 @@ export function HeroSection() {
               </a>
             )}
 
-            {portfolioData.email && (
+            {portfolioData.email && portfolioData.email !== '[YOUR_EMAIL]' && (
               <a
-                href={`mailto:${portfolioData.email}`}
-                className="p-3 rounded-lg border border-border hover:border-accent hover:bg-accent/10 transition-colors"
-                aria-label="Email"
+                href={`https://mail.google.com/mail/?view=cm&fs=1&to=${portfolioData.email}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-3 rounded-lg border border-border hover:border-accent hover:bg-accent/10 transition-colors inline-flex items-center justify-center"
+                aria-label={`Send email to ${portfolioData.email}`}
+                title="Send me an Email"
               >
                 <Mail size={24} />
               </a>
