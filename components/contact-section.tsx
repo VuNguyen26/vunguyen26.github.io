@@ -117,9 +117,11 @@ export function ContactSection() {
 
           {/* Email CTA */}
           <motion.div variants={itemVariants} className="text-center pt-8">
-            {portfolioData.email && portfolioData.email !== '[YOUR_EMAIL]' ? (
+            {portfolioData.email ? (
               <a
-                href={`mailto:${portfolioData.email}`}
+                href={`https://mail.google.com/mail/?view=cm&fs=1&to=${portfolioData.email}`}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 px-8 py-3 rounded-lg bg-gradient-to-r from-primary to-accent text-white font-semibold hover:shadow-lg hover:shadow-accent/30 transition-all"
               >
                 Send me an Email
