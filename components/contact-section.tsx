@@ -27,7 +27,7 @@ export function ContactSection() {
   const socialLinks = [
     {
       name: 'Email',
-      url: `mailto:${portfolioData.email}`,
+      url: `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(portfolioData.email)}`,
       icon: Mail,
       color: 'hover:text-orange-500',
       placeholder: '[YOUR_EMAIL]',
