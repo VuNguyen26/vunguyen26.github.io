@@ -23,7 +23,7 @@ export function Footer() {
     },
     {
       icon: Mail,
-      url: `mailto:${portfolioData.email}`,
+      url: `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(portfolioData.email)}`,
       label: 'Email',
       placeholder: '[YOUR_EMAIL]',
     },
