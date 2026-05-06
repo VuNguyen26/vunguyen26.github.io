@@ -6,7 +6,7 @@ export const portfolioData = {
   role: 'Fresher Full-stack Web Developer',
   bio: `Software Engineering student at Saigon University with hands-on experience building full-stack web applications using Laravel, Next.js, React.js, and Spring Boot. I enjoy creating responsive user interfaces, developing practical backend systems, and turning ideas into clean, user-focused products.`,
   shortBio:
-    'I build responsive full-stack web applications with Laravel, Next.js, React.js, and Spring Boot.',
+    'I build responsive full-stack web applications with Next.js, React.js, Laravel, and Spring Boot.',
 
   // Contact Info
   email: 'nguyenminhvu591@gmail.com',
@@ -18,7 +18,7 @@ export const portfolioData = {
   // About Section
   aboutTitle: 'About Me',
   aboutContent: `I'm Nguyen Minh Vu, a Software Engineering student who is passionate about full-stack web development. 
-I have experience building academic and personal projects with Laravel, Next.js, React.js, Spring Boot, and MySQL. 
+I have experience building academic and personal projects with Next.js, React.js, Laravel, Spring Boot, and MySQL. 
 I enjoy working on both frontend and backend, from designing responsive user interfaces to building REST APIs, authentication flows, and modular application structures. 
 My goal is to grow as a professional developer by building real-world products, writing clean and maintainable code, and continuously improving my technical skills.`,
 
@@ -30,17 +30,17 @@ My goal is to grow as a professional developer by building real-world products, 
       'TypeScript',
       'JavaScript',
       'Tailwind CSS',
-      'HTML',
-      'CSS',
+      'HTML, CSS',
       'Blade',
       'Livewire',
       'Responsive Design',
     ],
     backend: [
-      'Laravel',
-      'Spring Boot',
+      'Nest.js',
       'Node.js',
+      'Spring Boot',
       'ASP.NET Core',
+      'Laravel',
       'REST APIs',
       'Authentication',
       'Role-Based Access Control',
@@ -54,27 +54,28 @@ My goal is to grow as a professional developer by building real-world products, 
   projects: [
     {
       id: 1,
-      name: 'Navara Hotel Management System',
+      name: 'AI Document Assistant',
       description:
-        'A full-stack hotel booking and management web application with separate public-facing and admin interfaces.',
+        ' A full-stack AI document assistant that supports document upload, text extraction, summarization, translation, text-to-speech, and chat-based question answering.',
       role: 'Full-stack Developer',
       technologies: [
-        'Laravel 10',
-        'PHP',
-        'MySQL',
-        'Blade',
+        'TypeScript',
+        'NestJS',
+        'Next.js',
+        'Prisma',
+        'PostgreSQL',
+        'pgvector',
+        'OpenRouter',
+        'React',
         'Tailwind CSS',
-        'Jetstream',
-        'Livewire',
-        'Vite',
       ],
       highlights: [
-        'Built core modules for room types, rooms, customers, bookings, payments, and contact management',
-        'Implemented authentication, role-based access control, CRUD workflows, and form validation',
-        'Delivered a responsive UI for both public users and admin management',
+        'Built a full-stack AI document assistant that supports document upload, text extraction, summarization, translation, text-to-speech, and chat-based question answering.',
+        'Implemented a RAG pipeline for TXT, PDF, and DOCX documents, including content extraction, chunking, embedding generation, semantic search, and citation-based responses.',
+        'Developed NestJS backend modules for documents, extraction jobs, chunks, embeddings, search, chat, summaries, translations, workspaces, and audio workflows.',
       ],
-      github: 'https://github.com/VuNguyen26/hotel-project',
-      demo: 'https://navarahotel.kesug.com/',
+      github: 'https://github.com/VuNguyen26/ai-document-assistant',
+      demo: 'https://ai-document-assistant-tau.vercel.app',
       image: '/projects/project-1.jpg',
     },
     {
@@ -127,6 +128,31 @@ My goal is to grow as a professional developer by building real-world products, 
       demo: 'https://medbook-nine.vercel.app/',
       image: '/projects/project-3.jpg',
     },
+    {
+      id: 4,
+      name: 'Navara Hotel Management System',
+      description:
+        'A full-stack hotel booking and management web application with separate public-facing and admin interfaces.',
+      role: 'Full-stack Developer',
+      technologies: [
+        'Laravel 10',
+        'PHP',
+        'MySQL',
+        'Blade',
+        'Tailwind CSS',
+        'Jetstream',
+        'Livewire',
+        'Vite',
+      ],
+      highlights: [
+        'Built core modules for room types, rooms, customers, bookings, payments, and contact management',
+        'Implemented authentication, role-based access control, CRUD workflows, and form validation',
+        'Delivered a responsive UI for both public users and admin management',
+      ],
+      github: 'https://github.com/VuNguyen26/hotel-project',
+      demo: 'https://navarahotel.kesug.com/',
+      image: '/projects/project-4.jpg',
+    },
   ],
 
   // Experience & Education
@@ -144,10 +170,10 @@ My goal is to grow as a professional developer by building real-world products, 
       id: 2,
       type: 'experience',
       title: 'Full-stack Developer',
-      organization: 'Navara Hotel Management System',
-      period: 'Mar 2026',
+      organization: 'AI Document Assistant',
+      period: 'Apr 2026',
       description:
-        'Built a hotel booking and management system using Laravel, MySQL, Blade, Tailwind CSS, Jetstream, and Livewire.',
+        'Built a full-stack AI document assistant that supports document upload, text extraction, summarization, translation, text-to-speech, and chat-based question answering',
     },
     {
       id: 3,
@@ -160,6 +186,15 @@ My goal is to grow as a professional developer by building real-world products, 
     },
     {
       id: 4,
+      type: 'experience',
+      title: 'Full-stack Developer',
+      organization: 'Navara Hotel Management System',
+      period: 'Mar 2026',
+      description:
+        'Built a hotel booking and management system using Laravel, MySQL, Blade, Tailwind CSS, Jetstream, and Livewire.',
+    },
+    {
+      id: 5,
       type: 'experience',
       title: 'Full-stack Developer',
       organization: 'MedBook Microservices System',
