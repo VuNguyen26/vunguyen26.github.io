@@ -3,7 +3,7 @@
 export const portfolioData = {
   // Hero Section
   name: 'Nguyen Minh Vu',
-  role: 'Fresher Full-stack Web Developer',
+  role: 'Full-stack Web Developer',
   bio: `Software Engineering student at Saigon University with hands-on experience building full-stack web applications using Laravel, Next.js, React.js, and Spring Boot. I enjoy creating responsive user interfaces, developing practical backend systems, and turning ideas into clean, user-focused products.`,
   shortBio:
     'I build responsive full-stack web applications with Next.js, React.js, Laravel, and Spring Boot.',
